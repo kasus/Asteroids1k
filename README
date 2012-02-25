@@ -1,0 +1,22 @@
+This is 1KB Asteroid-like game written on JS for js1k.com 2012 contest.
+Read more about asteroid game: http://en.wikipedia.org/wiki/Asteroids_(video_game)
+
+Rules:
+In this game you need to avoid asteroids(squares) and try to destroy them.
+Bigger asteroids make bigger damage. Lesser asteroids give more scores when you destroing them. When you shoot big asteroid it would be smaller.
+You can see your hit point near % symbol, your scores near $ symbol.
+
+Keyboard game controls:
+up arrow - hold to accelerate and release to break
+right/left arrows - rotate ship
+A - shoot
+F5 - restart
+
+For developers:
+I use Google Closure Compiler and Microsoft Ajax minifiers to make game have 1K size.
+You can see extended version of game(not 1KB) in extended branch.
+Source is asteroids.js(will be after 14th of Match, 2012), minifed version - 1k.js
+To lauch game download files and start index.html
+
+index.html:
+a,b,c variables are provided by js1k contest evironment.
